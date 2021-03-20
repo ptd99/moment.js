@@ -11,8 +11,8 @@ function getTime() {
     const hours_12 = hours%12;
     if(timeset)
     {clockTitle.innerHTML = 
-    `${hours}:${(minutes<10)?'0'+minutes:minutes}:${(seconds<10)?'0'+seconds:seconds}`;
-    }  
+    `${(hours<10)?'0'+hours:hours}:${(minutes<10)?'0'+minutes:minutes}:${(seconds<10)?'0'+seconds:seconds}`;
+    }   
     else
     {clockTitle.innerHTML = 
     `${(hours_12<10)?'0'+hours_12:hours_12}:${(minutes<10)?'0'+minutes:minutes}:${(seconds<10)?'0'+seconds:seconds}`;}
