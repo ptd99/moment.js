@@ -13,7 +13,7 @@ function paintImage(){
     const number = Math.floor(Math.random() * IMG_NUMBER);
 
     const image = new Image();
-    image.src = `![]images/${number + 1}.jpg`;
+    image.src = `./moment.js/img${number + 1}.jpg`;
     image.classList.add('bgImage');
     image.id = `img${count}`;
     count++;
