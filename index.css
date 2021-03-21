@@ -102,6 +102,12 @@ input:focus {
   opacity: 0.8;
 }
 
+.js-lists .fa-caret-right {
+  pointer-events: none;
+  margin-right: 10px;
+  cursor: default;
+}
+
 .js-lists {
   position: relative;
   display: flex;
@@ -121,11 +127,6 @@ input:focus {
   text-align: center;
   align-items: center;
   font-size: 30px;
-}
-
-.fa-caret-right {
-  margin-right: 10px;
-  pointer-events: none;
 }
 
 ul {
